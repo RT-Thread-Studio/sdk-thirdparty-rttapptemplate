@@ -1,0 +1,15 @@
+---
+yaml_version: 3
+pkg_version: 0.0.1
+pkg_vendor: RealThread
+pkg_type: ThirdParty_Support_Packages
+name: RttAppTemplate
+minimal_rt_studio_version: 3.0.0
+example_projects:   
+- project_name: HelloWorld
+  project_description: This is a simple helloworld sample program
+  builtin_files:
+  - source_path_offset: projects/helloworld_demo
+    target_path_offset: ''
+    files_and_folders:
+    - "*"
