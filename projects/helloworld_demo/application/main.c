@@ -1,14 +1,13 @@
-#include <stdio.h>
+#include "rtthread.h"
 
 int main(int argc, char *argv[])
 {
-    int count1 = 0;
-    int count2 = 10;
+    rt_kprintf("hello RT-Thread app\n");
+
     while (1)
     {
-        count1++;
-        count2++;
+        rt_thread_mdelay(1000);
     }
 
-    return count1+count2;
+    return 0;
 }
