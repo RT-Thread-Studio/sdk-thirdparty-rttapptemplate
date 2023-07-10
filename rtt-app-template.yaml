@@ -1,6 +1,6 @@
 ---
 yaml_version: 3
-pkg_version: 0.0.1
+pkg_version: 0.0.2
 pkg_vendor: RealThread
 pkg_type: ThirdParty_Support_Packages
 name: RttAppTemplate
